@@ -1,0 +1,179 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+.top-menu{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-bottom: 1px solid #ffffff;
+    background: rgba(88, 182, 249, 0.50);
+}
+
+.top-logo{
+    text-align: center;
+}
+
+.top-logo img{
+    width: 100px;  
+    margin: 0;
+    padding: 0; 
+}
+
+.slideshow img{
+    width: 100%;
+}
+
+.menu ul{
+    list-style: none;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li:last-child{
+    padding: 10px 5px;
+    background: rgb(230,233,150);
+}
+
+.menu ul li:last-child a{
+    color: red;
+    font-weight: bold;
+}
+
+.menu a{
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 12px;
+    font-size: 15px;
+    font-family: Arial;
+    /* text-transform: uppercase; */
+}
+
+.lang{
+    text-align: center;
+}
+
+.lang img{
+    margin-top: 23px;
+}
+
+.welcome-content{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #777;
+    background: #ecebeb;
+    text-transform: uppercase;
+    font-family: Arial;
+    margin-top: -3px;
+}
+
+.text-title{
+    text-align: center;
+    margin-top: 10px;
+    color: #777;
+    font-size: 14px;
+}
+
+.food-room{
+    text-align: center; 
+    background: #ecebeb;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.food-room a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+}
+
+.food-room>.active{
+    background: rgb(255, 255, 255);
+}
+
+.contents{
+    width: 80%;
+    margin: auto;
+}
+
+.img-galary{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.img-galary .row{
+    padding: 0;
+}
+
+.img-food {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.col3{
+    padding: 0;
+}
+
+.promote-pk-bg{
+    width: 100%; 
+    background: #f5f5f5;
+    margin-top: -35px;
+}
+
+.promote-pk-bg .col5{
+    background: white;
+    padding: 0;
+    /* margin-left: 10px; */
+}
+
+.promote-pk-bg .row{
+    background: #f5f5f5;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.img-bg-promote{
+    /* top: 0;
+    left: 0; */
+    position: relative;
+}
+
+.promote-fee{
+    top: 10px ; left: 10px; padding: 10px 10px; background: crimson; width: 100px; z-index: 1; color: white; font-weight: 800; text-align: center; position: absolute;
+}
+
+.img-booknow{
+    top: 10px; right: -30px; position: absolute; z-index: 2;
+}
+
+.img-booknow img{
+    width: 50%;
+}
+
+.promote-pk-bg .col3{
+    margin: auto;
+    background: white;
+    padding-bottom: 10px;
+}
+
+.menu-buttom ul{
+    list-style: none;
+}
+
+.menu-buttom ul li a{
+    text-decoration: none;
+    color: #777;
+}
